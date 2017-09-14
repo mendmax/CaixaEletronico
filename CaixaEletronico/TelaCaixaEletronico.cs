@@ -21,5 +21,15 @@ namespace CaixaEletronico
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Cliente_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

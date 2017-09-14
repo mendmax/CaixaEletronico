@@ -39,22 +39,24 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(113, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Conta";
+            this.label1.Text = "Selecione Uma Conta:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // combConta
             // 
+            this.combConta.DisplayMember = "Conta 1";
             this.combConta.FormattingEnabled = true;
             this.combConta.Items.AddRange(new object[] {
             "Conta 1",
             "Conta 2",
             "Conta 3"});
-            this.combConta.Location = new System.Drawing.Point(53, 6);
+            this.combConta.Location = new System.Drawing.Point(128, 6);
             this.combConta.Name = "combConta";
             this.combConta.Size = new System.Drawing.Size(121, 21);
             this.combConta.TabIndex = 1;
+            this.combConta.SelectedIndexChanged += new System.EventHandler(this.combConta_SelectedIndexChanged);
             // 
             // Cliente
             // 
@@ -71,9 +73,8 @@
             this.lblCliente.AutoSize = true;
             this.lblCliente.Location = new System.Drawing.Point(767, 14);
             this.lblCliente.Name = "lblCliente";
-            this.lblCliente.Size = new System.Drawing.Size(38, 13);
+            this.lblCliente.Size = new System.Drawing.Size(0, 13);
             this.lblCliente.TabIndex = 3;
-            this.lblCliente.Text = "cliente";
             // 
             // TelaCaixaEletronico
             // 

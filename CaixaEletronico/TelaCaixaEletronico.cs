@@ -31,5 +31,10 @@ namespace CaixaEletronico
         {
 
         }
+
+        private void combConta_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
